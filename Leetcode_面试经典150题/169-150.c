@@ -1,7 +1,7 @@
 // #169 数组多数元素
 /*
 著名的 Boyer-Moore投票算法
-算法思想：遍历数组的过程中更新两个变量candidate、count，在前进过程中更新count值
+算法思想：遍历数组的过程中更新两个变量 candidate、count，在前进过程中更新count值
 candidate用于储存候选元素
 count作为计数器
 
