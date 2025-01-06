@@ -1,7 +1,6 @@
 // #219 存在重复元素 II
 // 哈希表
 // 滑动窗口(C)
-package Leetcode_repository.Leetcode_面试经典150题;
 import java.util.Map;
 import java.util.HashMap;
 
