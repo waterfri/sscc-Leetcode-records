@@ -3,7 +3,7 @@
 // 递归
 // 遍历
 
-public class ListNode{
+class ListNode{
     int value;
     ListNode next;
 
@@ -15,16 +15,16 @@ public class ListNode{
 class Solution{
     public ListNode reverseList(ListNode head){
 
-        ListNode pre = null;
+        ListNode pre = null; // 指向前一个结点
         ListNode cur = head;
 
         while(cur != null){
             ListNode next = cur.next; // 防止断链
 
-            cur.next = pre;
+            cur.next = pre; // 反转指针
             
-            pre = cur;
-            cur = next;
+            pre = cur; // 指针移动
+            cur = next; // 指针移动
         }
 
         return pre;
